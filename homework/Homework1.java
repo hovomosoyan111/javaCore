@@ -1,5 +1,7 @@
 package homework;
-// "1"
+
+// "1 Առաջադրանք"
+
 public class Homework1 {
     public static void main(String[] args) {
         int x, y;
@@ -10,7 +12,9 @@ public class Homework1 {
         }
     }
 }
-    // "2"
+
+    // "2 Առաջադրանք"
+
     class Ex2 {
         public static void main(String[] args) {
             int i;
@@ -21,7 +25,9 @@ public class Homework1 {
         }
     }
 
-//"3"
+
+//"3 Առաջադրանք"
+
 class Ex3 {
     public static void main(String[] args) {
         int a,b;
@@ -30,7 +36,9 @@ class Ex3 {
         System.out.println(a+b);
     }
 }
-//4
+
+//"4 Առաջադրանք"
+
 class Ex4 {
     public static void main(String[] args) {
         int n = 3;
