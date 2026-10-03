@@ -1,5 +1,5 @@
 package homework;
-
+// "1"
 public class Homework1 {
     public static void main(String[] args) {
         int x, y;
@@ -7,9 +7,36 @@ public class Homework1 {
         y = 9;
         if (x > y) {
             System.out.println("x-ը մեծ է y-ից");
-            if (y > x) {
-                System.out.println("y-ը մեծ է x-ից");
+        }
+    }
+}
+    // "2"
+    class Ex2 {
+        public static void main(String[] args) {
+            int i;
+            for (i = 1; i < 6; i++) {
+                System.out.println(i);
+
             }
+        }
+    }
+
+//"3"
+class Ex3 {
+    public static void main(String[] args) {
+        int a,b;
+        a=5;
+        b=7;
+        System.out.println(a+b);
+    }
+}
+//4
+class Ex4 {
+    public static void main(String[] args) {
+        int n = 3;
+        int i;
+        for (i = 1; i < 11; i++) {
+            System.out.println(n + "*" + i + "=" + n*i);
         }
     }
 }
