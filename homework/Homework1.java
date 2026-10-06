@@ -11,26 +11,20 @@ public class Homework1 {
             System.out.println("x-ը մեծ է y-ից");
         }
     }
-}
 
     // "2 Առաջադրանք"
 
-    class Ex2 {
-        public static void main(String[] args) {
+    {
             int i;
             for (i = 1; i < 6; i++) {
                 System.out.println(i);
 
             }
         }
-    }
-
 
 //"3 Առաջադրանք"
-
-class Ex3 {
-    public static void main(String[] args) {
-        int a,b;
+{
+        {  int a,b;
         a=5;
         b=7;
         System.out.println(a+b);
@@ -38,9 +32,7 @@ class Ex3 {
 }
 
 //"4 Առաջադրանք"
-
-class Ex4 {
-    public static void main(String[] args) {
+    {
         int n = 3;
         int i;
         for (i = 1; i < 11; i++) {
@@ -48,3 +40,4 @@ class Ex4 {
         }
     }
 }
+
