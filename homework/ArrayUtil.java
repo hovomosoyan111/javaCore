@@ -6,7 +6,7 @@ public class ArrayUtil {
         // Խնդիր 1 - Տպել զանգվածի բոլոր էլեմենտները
         int[] numbers = {1, 6, 3, 9, 15, 52, -3, 5, 8};
         for (int i = 0; i < numbers.length; i++) {
-            
+
             System.out.print(numbers[i] + " ");
         }
         System.out.println();
@@ -31,9 +31,10 @@ public class ArrayUtil {
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] < min) {
                 min = numbers[i];
-                System.out.println("Minimum number;" + " " + min);
             }
+            System.out.println("Minimum number;" + " " + min);
         }
+
         System.out.println();
 
 // Խնդիր 6 - Տպել զանգվածի մեջտեղի էլեմենտը կամ էլեմենտները
@@ -111,11 +112,15 @@ public class ArrayUtil {
             }
         }
 
-            System.out.println("Zero count:" + " " + count);
+        System.out.println("Zero count:" + " " + count);
+        System.out.println();
+
+// Խնդիր 3 - Տպել զանգվածը հակառակ հերթականությամբ
+        for (int i = numbers.length-1; i >= 0; i--) {
+            System.out.print(numbers[i] + " ");
+        }
     }
 }
-
-
 
 
 
