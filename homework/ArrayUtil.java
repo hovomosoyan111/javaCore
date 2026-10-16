@@ -6,8 +6,7 @@ public class ArrayUtil {
         // Խնդիր 1 - Տպել զանգվածի բոլոր էլեմենտները
         int[] numbers = {1, 6, 3, 9, 15, 52, -3, 5, 8};
         for (int i = 0; i < numbers.length; i++) {
-
-
+            
             System.out.print(numbers[i] + " ");
         }
         System.out.println();
