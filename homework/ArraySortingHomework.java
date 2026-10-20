@@ -1,0 +1,38 @@
+package homework;
+
+public class ArraySortingHomework {
+    public static void main(String[] args) {
+        int [] numbers = {12, 5, 8, -3, 21, 7, 0, 15, 2, 9};
+        // Խնդիր 1 - Սորտավորել զանգվածը փոքրից մեծ (Ascending Order)
+        for (int i = 0; i < numbers.length ; i++) {
+            for (int j = 0; j < numbers.length - 1; j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
+                }
+            }
+        }
+        for (int i= 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+        }
+
+        System.out.println();
+
+        // Խնդիր 2 - Սորտաորել զանգվածը մեծից փոքր (Descending Order)
+        numbers = new int[] {12, 5, 8, -3, 21, 7, 0, 15, 2, 9};
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers.length - 1; j++) {
+                if (numbers[j] < numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
+                }
+            }
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+
+        }
+            }
+        }
