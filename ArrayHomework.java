@@ -5,7 +5,7 @@ public class ArrayHomework {
         int n = 6;
         int count = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] == 6) {
+            if (numbers[i] == n) {
                 count++;
             }
         }
@@ -26,7 +26,7 @@ public class ArrayHomework {
             count = 0;
             for (int j = 0; j < i; j++) {
                 if (numbers2[i] == numbers2[j]) {
-                    count++;
+                    count ++;
                 }
             }
         }
