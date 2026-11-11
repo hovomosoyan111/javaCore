@@ -31,33 +31,10 @@ DynamicArray da1 = new DynamicArray();
 
         System.out.println();
 DynamicArray da2 = new DynamicArray();
-        da2.add(1);
-        da2.add(2);
-        da2.add(3);
-        da2.add(4);
-        da2.add(5);
-        da2.add(6);
-        da2.add(7);
-        da2.add(8);
-        da2.add(9);
-        da2.add(10);
-        da2.add(11);
-        da2.add(12);
-        da2.add(13);
-        da2.add(14);
-        da2.add(15);
-        da2.add(16);
-        da2.add(17);
-        da2.add(18);
-        da2.add(19);
-        da2.add(20);
-        da2.add(21);
-        da2.add(22);
-        da2.add(23);
-        da2.add(24);
-        da2.add(25);
-        da2.print();
-
+            for (int i = 0; i < 26; i++) {
+                    da2.add(i);
+            }
+            da2.print();
         System.out.println();
 
         System.out.println(da2.getByIndex(0));
